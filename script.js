@@ -19,19 +19,19 @@ function verificar() {
 
             if (idade >= 0 && idade <= 10){
                 //criança
-                img.setAttribute('src', 'bebe-m.png')
+                img.setAttribute('src', 'images/bebe-m.png')
             } else if (idade <= 21) {
                 // adolescente/jovem
-                img.setAttribute('src', 'jovem-m.png')
+                img.setAttribute('src', 'images/jovem-m.png')
             } else if (idade <= 45) {
                 // adulto
-                img.setAttribute('src', 'adulto-m.png')
+                img.setAttribute('src', 'images/adulto-m.png')
             } else if (idade <= 65) {
                 // meia idade
-                img.setAttribute('src', 'meia-idade-m.png')
+                img.setAttribute('src', 'images/meia-idade-m.png')
             } else {
                 // idoso
-                img.setAttribute('src', 'idoso-m.png')
+                img.setAttribute('src', 'images/idoso-m.png')
             }
 
         } else if (fsex[1].checked) {
@@ -39,19 +39,19 @@ function verificar() {
 
             if (idade >= 0 && idade <= 10){
                 //criança
-                img.setAttribute('src', 'bebe-f.png')
+                img.setAttribute('src', 'images/bebe-f.png')
             } else if (idade <= 21) {
                 // adolescente/jovem
-                img.setAttribute('src', 'jovem-f.png')
+                img.setAttribute('src', 'images/jovem-f.png')
             } else if (idade <= 45) {
                 // adulta
-                img.setAttribute('src', 'adulto-f.png')
+                img.setAttribute('src', 'images/adulto-f.png')
             } else if (idade <= 65) {
                 // meia idade
-                img.setAttribute('src', 'meia-idade-f.png')
+                img.setAttribute('src', 'images/meia-idade-f.png')
             } else {
                 // idosa
-                img.setAttribute('src', 'idoso-f.png')
+                img.setAttribute('src', 'images/idoso-f.png')
             }
         }
 
